@@ -9,15 +9,7 @@ Feature: Test different forms
     Then Attach file: "/Users/ksu/Downloads/NewYorkMap.jpeg"
     Then Press on Submit button
 
-  Scenario: I am on horizontal form
-    Then Fill out email: "oksanasantalova@gmail.com"
-    Then Fill out password: "Password"
-    Then Click on Sign In
 
-  Scenario: I am on form elements
-    Then I enter text: "Oksana"
-    Then I enter password: "Password"
-    Then I enter placeholder text: "Santalova"
 
 
 

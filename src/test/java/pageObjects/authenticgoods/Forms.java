@@ -33,37 +33,8 @@ public class Forms extends CommonPage{
         By Locator = By.className("btn-primary");
         getElement(Locator).click();
     }
-    // Horizontal From
-    public void setEmail2(String value){
-        By Locator = By.id("inputEmail2");
-        getElement(Locator).sendKeys(value);
-    }
 
-    public void setPassword2(String value){
-        By Locator = By.id("inputPassword2");
-        getElement(Locator).sendKeys(value);
-    }
 
-    public void clickButton2(){
-        By Locator = By.xpath("1");
-        getElement(Locator).click();
-    }
-
-    // Form Elements
-    public void enterText(String value){
-        By Locator = By.;
-        getElement(Locator).sendKeys(value);
-    }
-
-    public void enterPassword(String value){
-        By Locator = By.;
-        getElement(Locator).sendKeys(value);
-    }
-
-    public void enterPlaceHolder(String value){
-        By Locator = By.;
-        getElement(Locator).sendKeys(value);
-    }
 }
 
 
